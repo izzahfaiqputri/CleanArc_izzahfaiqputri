@@ -39,8 +39,8 @@ Clean Architecture :
 ├── app.py
 ```
 7. Kelebihan Clean Architecture
-Modularitas lebih tinggi: Mudah untuk mengganti database atau framework dengan hanya mengganti repository implementation.
-Pemisahan concerns lebih jelas: Controller tidak menangani logika bisnis dan database langsung.
-Testability lebih baik: Dengan dependensi yang dipisahkan, unit testing lebih mudah dilakukan.
+- Kode lebih rapi karena sudah dipisah sesuai fungsi masing-masing.
+- Lebih fleksibel, misalnya kalau mau ganti database atau framework, tidak perlu banyak perubahan.
+- Mudah untuk dites, karena setiap bagian berdiri sendiri dan bisa diuji secara terpisah.
 
 Tambahan : Clean Architecture lebih cocok untuk proyek besar karena pattern ini lebih mudah ketika testing.
