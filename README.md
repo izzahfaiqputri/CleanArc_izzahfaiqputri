@@ -1,4 +1,4 @@
-Dalam refaktorisasi proyek ini dari arsitektur Model-View-Controller (MVC) ke Clean Architecture, terdapat beberapa perubahan utama yang dilakukan untuk meningkatkan modularitas, skalabilitas, dan pemisahan concerns. Berikut adalah perubahan yang diterapkan:
+Proyek ini adalah hasil refactor dari Model-View-Controller (MVC) ke Clean Architecture. Di dalamnya terdapat beberapa perubahan yang dilakukan, yaitu :
 
 1. Pemisahan Domain dan Entitas
 Pada MVC, model database langsung digunakan di dalam controller.
@@ -38,7 +38,7 @@ Clean Architecture :
 ├── database/        # Konfigurasi database
 ├── app.py
 ```
-7. Kelebihan Clean Architecture
+6. Kelebihan Clean Architecture
 - Kode lebih rapi karena sudah dipisah sesuai fungsi masing-masing.
 - Lebih fleksibel, misalnya kalau mau ganti database atau framework, tidak perlu banyak perubahan.
 - Mudah untuk dites, karena setiap bagian berdiri sendiri dan bisa diuji secara terpisah.
