@@ -17,7 +17,8 @@ Dalam Clean Architecture, dibuat Use Case Layer (usecase/user_usecase.py) untuk 
 Pada MVC, controller berisi langsung query database dan logika bisnis.
 Dalam Clean Architecture, controller hanya bertindak sebagai perantara antara HTTP request dan Use Case Layer.
 
-5. Struktur Folder yang Lebih Modular
+5. Struktur Folder
+
 MVC :
 ``` backend_architecture/
 ├── models/
