@@ -19,15 +19,15 @@ Dalam Clean Architecture, controller hanya bertindak sebagai perantara antara HT
 
 5. Struktur Folder yang Lebih Modular
 MVC :
-backend_architecture/
+``` backend_architecture/
 ├── models/
 ├── controllers/
 ├── routes/
 ├── database/
 ├── app.py
-
+```
 Clean Architecture :
-backend_architecture/
+``` backend_architecture/
 ├── domain/          # Entitas bisnis
 ├── repository/      # Abstraksi & implementasi data storage
 ├── usecase/         # Logika bisnis utama
@@ -36,7 +36,7 @@ backend_architecture/
 ├── routes/          # Routing
 ├── database/        # Konfigurasi database
 ├── app.py
-
+```
 7. Kelebihan Clean Architecture
 Modularitas lebih tinggi: Mudah untuk mengganti database atau framework dengan hanya mengganti repository implementation.
 Pemisahan concerns lebih jelas: Controller tidak menangani logika bisnis dan database langsung.
